@@ -15,11 +15,11 @@ public class Circle {
     }
 
     public double diameter() {
-        return 2 * this.radius;
+        return 2.0 * this.radius;
     }
 
     public double perimeter() {
-        return 2 * Math.PI * this.radius;
+        return 2.0 * Math.PI * this.radius;
     }
 
     public double area() {
